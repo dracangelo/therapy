@@ -1218,3 +1218,55 @@ color: #fff;
 {
 	max-width: 100%;
 }
+
+
+.site-section {
+	padding: 2.5em 0;
+  }
+  
+  @media (min-width: 768px) {
+	.site-section {
+	  padding: 5em 0;
+	}
+  }
+  
+  .site-section.site-section-sm {
+	padding: 4em 0;
+  }
+  
+  .site-section-heading {
+	position: relative;
+	font-size: 1.7rem;
+	padding-bottom: 30px;
+  }
+  
+  @media (min-width: 768px) {
+	.site-section-heading {
+	  font-size: 2rem;
+	}
+  }
+  
+  .site-section-heading:after {
+	content: "";
+	left: 0%;
+	bottom: 0;
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	background: #ea728c;
+  }
+  
+  .site-section-heading.text-center:after {
+	content: "";
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	content: "";
+	left: 50%;
+	bottom: 0;
+	position: absolute;
+	width: 100px;
+	height: 1px;
+	background: #ea728c;
+  }
+  
