@@ -1055,3 +1055,166 @@ color: #fff;
 	font-style: italic;
 	color: #939393 !important;
 }
+
+.services
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-bottom: 109px;
+}
+.icon_box_container
+{
+	margin-top: 87px;
+}
+.icon_box_image
+{
+	display: inline-block;
+	height: 62px;
+}
+.icon_box_image img
+{
+	max-height: 100%;
+}
+.svg path,
+.svg rect,
+.svg polygon
+{
+	fill: #afafaf;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.icon_box:hover .svg path,
+.icon_box:hover .svg rect,
+.icon_box:hover .svg polygon
+{
+	fill: #fe3c52;
+}
+.icon_box svg
+{
+	height: 62px;
+	width: auto;
+}
+.icon_box_title
+{
+	display: inline-block;
+	vertical-align: bottom;
+	font-size: 24px;
+	font-weight: 300;
+	color: #131a2f;
+	padding-left: 22px;
+}
+.icon_box_text
+{
+	margin-top: 14px;
+}
+.icon_box p:last-of-type
+{
+	margin-bottom: 0;
+}
+.icon_box_more
+{
+	display: inline-block;
+	position: relative;
+	font-size: 12px;
+	font-weight: 400;
+	color: #131a2f;
+	margin-top: 35px;
+	overflow: hidden;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.icon_box_more:hover
+{
+	color: #fe3c52;
+}
+.icon_box_more::before
+{
+	display: block;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: #fe3c52;
+	-webkit-transition: all 0.5s cubic-bezier(0.615, 0.19, 0.305, 0.91);
+    -moz-transition: all 0.5s cubic-bezier(0.615, 0.19, 0.305, 0.91);
+    -ms-transition: all 0.5s cubic-bezier(0.615, 0.19, 0.305, 0.91);
+    -o-transition: all 0.5s cubic-bezier(0.615, 0.19, 0.305, 0.91);
+    transition: all 0.5s cubic-bezier(0.615, 0.19, 0.305, 0.91);
+}
+.icon_box_more:hover::before
+{
+	left: 100%;
+}
+
+
+.about
+{
+	padding-bottom: 119px;
+	background: #FFFFFF;
+}
+.section_title
+{
+	padding-top: 111px;
+	line-height: 1.1;
+}
+.section_title h2
+{
+	font-weight: 300;
+	color: #131a2f;
+}
+.section_title div
+{
+	font-size: 16px;
+	font-weight: 400;
+	color: #7d8293;
+	text-transform: uppercase;
+	margin-top: 19px;
+}
+.button
+{
+	display: inline-block;
+	width: 161px;
+	height: 56px;
+	background: #fe3c52;
+	text-align: center;
+}
+.button a
+{
+	display: block;
+	font-size: 16px;
+	color: #FFFFFF;
+	font-weight: 500;
+	line-height: 56px;
+}
+.about_row
+{
+	padding-top: 85px;
+}
+.about_content
+{
+	margin-top: -7px;
+}
+.about_content p:last-of-type
+{
+	margin-bottom: 0;
+}
+.about_button
+{
+	margin-top: 48px;
+}
+.about_button:hover
+{
+	opacity: 0.8;
+}
+.about_image img
+{
+	max-width: 100%;
+}
